@@ -1,0 +1,24 @@
+.sendMessageApp {
+  text-align: center;
+  background-color: orange;
+  color: white;
+  font-size: 50px;
+  font-family: monospace, sans-serif;
+  padding: 25px 5px;
+  border: solid 1px orange;
+  border-radius: 4px;
+}
+
+.sendMessageImage {
+  max-width: 150px;
+  height: auto;
+}
+
+.sendMessageInput {
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  border: solid 1px orange;
+  box-shadow: none;
+  min-width: 300px;
+}

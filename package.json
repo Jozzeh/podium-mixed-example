@@ -1,0 +1,37 @@
+{
+  "name": "podium-react",
+  "version": "1.0.0",
+  "description": "demo of react micro frontends in a single page with podium",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installAll": "(cd ./base-app && npm install) && (cd ./react-message-pod && yarn) && (cd ./svelte-message-pod && npm install) && (cd ./vue-message-pod && npm install)",
+    "startReactPod": "(cd ./react-message-pod && npm run build && node podlet.js)",
+    "startSveltePod": "(cd ./svelte-message-pod && npm run build && node podlet.js)",
+    "startVuePod": "(cd ./vue-message-pod && npm run build && node podlet.js)",
+    "startBaseApp": "(cd ./base-app && node layout.js)",
+    "start": "npm-run-all -p startReactPod startSveltePod startVuePod startBaseApp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jozzeh/podium-react-example.git"
+  },
+  "keywords": [
+    "demo",
+    "react",
+    "frontend",
+    "svelte",
+    "podium",
+    "Vue"
+  ],
+  "author": "Jozzeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jozzeh/podium-react-example/issues"
+  },
+  "homepage": "https://github.com/Jozzeh/podium-react-example#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
