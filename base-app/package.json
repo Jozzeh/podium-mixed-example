@@ -14,7 +14,7 @@
   "author": "Jozzeh",
   "license": "ISC",
   "dependencies": {
-    "@podium/layout": "^4.5.1",
+    "@podium/layout": "^4.6.110",
     "express": "^4.17.1"
   }
 }
