@@ -18,7 +18,7 @@
   "dependencies": {
     "@podium/browser": "^1.0.0-beta.2",
     "@podium/podlet": "^4.3.3",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "sirv-cli": "^0.4.4"
   }
 }
