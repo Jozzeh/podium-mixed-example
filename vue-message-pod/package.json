@@ -11,7 +11,7 @@
     "@podium/browser": "^1.0.0-beta.2",
     "@podium/podlet": "^4.3.3",
     "core-js": "^3.6.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "vue": "^2.6.11"
   },
   "devDependencies": {
